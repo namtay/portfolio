@@ -1,0 +1,31 @@
+
+{{ define "head" }}
+  <link rel="stylesheet" href="/css/custom.css">
+{{ end }}
+
+{{ define "main" }}
+
+<section class="service-section">
+  <div class="container">
+    <h2 class="service-title">Projects
+    </h2>
+    <div class="divider"></div>
+    <div class="row g-4">
+     {{ with .Params.project_types }}
+        {{ range . }}
+        <div class="col-md-4">
+          <a href="{{.url }}" class="service-box-link">
+          <div class="service-box">
+            <div class="icon-circle"><i class="bi {{ .icon }}"></i></div>
+            <h5 class="service-heading">{{ .title }}</h5>
+            <p class="service-text">{{ .text }}</p>
+          </div>
+          </a>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

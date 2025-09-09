@@ -1,0 +1,64 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Portfolio"
+theme = "PaperMod"
+
+
+[params]
+  # Enable profile mode
+  
+
+  [params.profileMode]
+    enabled = true
+    title = "Christabel Ewoenam Tay"
+    subtitle = "Cybersecurity & Software Engineer"
+    imageUrl = "images/profile.png"       # Path to your profile image
+    imageTitle = "My Profile Picture"
+    imageWidth = 250
+    imageHeight = 250
+    buttons = [
+      { name = "About", url = "about" },
+      { name = "Projects", url = "projects" }
+    ]
+
+  [menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/namtay"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/christabel-tay-2b306813b"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:ewoenamtay2@gmail.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

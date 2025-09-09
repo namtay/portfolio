@@ -1,0 +1,58 @@
+
+{{ define "head" }}
+  <link rel="stylesheet" href="/css/custom.css">
+{{ end }}
+
+{{ define "main" }}
+<section class="project-highlight">
+  <div class="container">
+    {{/* Loop through category files under /content */}}
+    {{ range where .Site.RegularPages "Section" "" }}
+      <div class="category-block">
+        <h2 class="category-title">{{ .Title }}</h2>
+
+        {{ range .Params.projects }}
+          <div class="project d-flex flex-wrap mb-5">
+
+            <div class="project-image">
+              <img src="{{ .image | relURL }}" alt="{{ .title }}" class="img-fluid rounded">
+            </div>
+
+            <div class="project-details flex-1">
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+
+              {{ if .steps }}
+                <ul class="project-steps list-unstyled">
+                  {{ range .steps }}
+                    <li>
+                      <strong>{{ .title }}</strong>: {{ .description }}
+                    </li>
+                  {{ end }}
+                </ul>
+              {{ end }}
+
+              {{ if .tools }}
+                <p><strong>Tools:</strong> {{ delimit .tools ", " }}</p>
+              {{ end }}
+
+              {{ if .frameworks }}
+                <p><strong>Frameworks:</strong> {{ delimit .frameworks ", " }}</p>
+              {{ end }}
+
+              {{ if .standards }}
+                <p><strong>Standards:</strong> {{ delimit .standards ", " }}</p>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+
+      </div>
+    {{ end }}
+
+  </div>
+</section>
+
+
+{{ end }}
+
