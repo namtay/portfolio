@@ -11,7 +11,7 @@
     <div class="row g-4">
 
       {{/* Load the full projects file */}}
-      {{ $fullProjects := site.GetPage "projects/cloud-cybersecurity/project_details/index.md" }}
+      {{ $fullProjects := site.GetPage "projects/cloud-cybersecurity/project_details" }}
 
       {{/* Loop through abridged projects */}}
       {{ with .Params.projects }}
@@ -30,7 +30,7 @@
                 <p>Matched! projectURL is now: {{ $projectURL }}</p>
               {{ end }}
             {{ end }}
-            <a href= "/projects/cloud-cybersecurity/project_details/cloud-1" class="service-box-link">
+            <a href= {{ $projectURL }} class="service-box-link">
             <!-- <a href="{{ $projectURL }}" class="service-box-link"> -->
               <div class="service-box fixed-card">
                 <img src="{{ .image }}" class="card-img-top fixed-img" alt="{{ .title }}">

@@ -6,14 +6,15 @@
 {{ define "main" }}
 <section class="project-highlight">
   <div class="container">
-
-    {{/* Current project id from the page front matter */}}
-    {{ $currentID := .Params.id }}
-    <div>hello</div>
-    <p>Current id from front matter: {{$currentID}} </p>
-
+       <div>hello</div>
+   
+        {{/* Current project id from the page front matter */}}
+    {{ $currentID := .Params.ids }}
+    <p> Current id : {{ $currentID }}</p>
     {{/* Loop through category files under /content */}}
-    {{ range where .Site.RegularPages "Section" "projects" }}
+    
+    {{ range where .Site.RegularPages "File.Dir" "in" "projects/cloud-cybersecurity/project_details/" }}
+
       <div class="category-block">
         
         <h2 class="category-title">{{ .Title }}</h2>
@@ -28,6 +29,7 @@
             <div class="project-details flex-1">
               <h3>{{ .title }}</h3>
               <p>{{ .text }}</p>
+              <p>hello</p>
 
               {{ if .steps }}
                 <ul class="project-steps list-unstyled">
