@@ -6,9 +6,16 @@
 {{ define "main" }}
 <section class="project-highlight">
   <div class="container">
+
+    {{/* Current project id from the page front matter */}}
+    {{ $currentID := .Params.id }}
+    <div>hello</div>
+    <p>Current id from front matter: {{$currentID}} </p>
+
     {{/* Loop through category files under /content */}}
-    {{ range where .Site.RegularPages "Section" "" }}
+    {{ range where .Site.RegularPages "Section" "projects" }}
       <div class="category-block">
+        
         <h2 class="category-title">{{ .Title }}</h2>
 
         {{ range .Params.projects }}

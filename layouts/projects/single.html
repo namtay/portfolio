@@ -11,7 +11,7 @@
     <div class="row g-4">
 
       {{/* Load the full projects file */}}
-      {{ $fullProjects := site.GetPage "projects/cloud-cybersecurity/project_details" }}
+      {{ $fullProjects := site.GetPage "projects/cloud-cybersecurity/project_details/index.md" }}
 
       {{/* Loop through abridged projects */}}
       {{ with .Params.projects }}
@@ -20,14 +20,18 @@
 
             {{ $projID := .id }}
             {{ $projectURL := .url }}
+
+            <p>projID: {{ $projID }}</p>
+            <p>initial projectURL: {{ $projectURL }}</p>
             {{/* Find the matching full project */}}
             {{ range $fullProjects.Params.projects }}
               {{ if eq .id $projID }}
                 {{ $projectURL = .url }}
+                <p>Matched! projectURL is now: {{ $projectURL }}</p>
               {{ end }}
             {{ end }}
-
-            <a href="{{ $projectURL }}" class="service-box-link">
+            <a href= "/projects/cloud-cybersecurity/project_details/cloud-1" class="service-box-link">
+            <!-- <a href="{{ $projectURL }}" class="service-box-link"> -->
               <div class="service-box fixed-card">
                 <img src="{{ .image }}" class="card-img-top fixed-img" alt="{{ .title }}">
                 <h5 class="service-heading">{{ .title }}</h5>
