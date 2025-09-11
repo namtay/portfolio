@@ -9,15 +9,16 @@
        <div>hello</div>
    
         {{/* Current project id from the page front matter */}}
-    {{ $currentID := .Params.ids }}
+    {{ $currentID := .Params.id }}
     <p> Current id : {{ $currentID }}</p>
     {{/* Loop through category files under /content */}}
     
-    {{ range where .Site.RegularPages "File.Dir" "in" "projects/cloud-cybersecurity/project_details/" }}
+    {{ range where .Site.RegularPages "Section" "projects" }}
 
       <div class="category-block">
         
         <h2 class="category-title">{{ .Title }}</h2>
+        <p>{{ .Params }}</p> 
 
         {{ range .Params.projects }}
           <div class="project d-flex flex-wrap mb-5">

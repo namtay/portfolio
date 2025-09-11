@@ -1,0 +1,61 @@
+
+{{ define "head" }}
+  <link rel="stylesheet" href="/css/custom.css">
+{{ end }}
+
+
+{{ define "main" }}
+<section class="project-highlight">
+  <div class="container">
+
+    {{/* Get the current project ID from this page's front matter */}}
+    {{ $currentID := .Params.id }}
+    {{ $currentURL := .Params.url}}
+    {{/* Load the project_details section */}}
+    {{ $section := site.GetPage $currentURL }}
+
+    {{ if $section }}
+      {{/* Filter only the page whose id matches the current page */}}
+    
+      {{ $match := where $section.Pages "Params.id" "==" $currentID }}
+       
+         <div class="project d-flex flex-wrap mb-5">
+
+            <div class="project-image">
+              <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded">
+            </div>
+
+            <div class="project-details flex-1">
+              <h3>{{ .Params.title }}</h3>
+              <p>{{ .Params.text }}</p>
+
+              {{ if .Params.steps }}
+                <ul class="project-steps list-unstyled">
+                  {{ range .Params.steps }}
+                    <li><strong>{{ .title }}</strong>: {{ .description }}</li>
+                  {{ end }}
+                </ul>
+              {{ end }}
+
+              {{ if .Params.tools }}
+                <p><strong>Tools:</strong> {{ delimit .Params.tools ", " }}</p>
+              {{ end }}
+
+              {{ if .Params.frameworks }}
+                <p><strong>Frameworks:</strong> {{ delimit .Params.frameworks ", " }}</p>
+              {{ end }}
+
+              {{ if .Params.standards }}
+                <p><strong>Standards:</strong> {{ delimit .Params.standards ", " }}</p>
+              {{ end }}
+            </div>
+          </div>
+      
+    {{ else }}
+      <p>Project section not found.</p>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}
+

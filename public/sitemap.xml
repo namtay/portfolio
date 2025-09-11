@@ -2,34 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/portfolio/about/</loc>
     <lastmod>2025-08-10T00:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2025-08-10T00:00:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-cybersecurity/</loc>
+    <loc>http://localhost:1313/portfolio/projects/software-development/dev-3/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-cybersecurity/project_details/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cloud-cybersecurity/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-1/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cloud-cybersecurity/project_details/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/cybersecurity/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cybersecurity/cyber-1/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cybersecurity/cyber-2/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/software-development/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cybersecurity/cyber-3/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cybersecurity/cyber-4/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/portfolio/projects/cybersecurity/cyber-5/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/portfolio/projects/software-development/dev-1/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/software-development/dev-4/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/cybersecurity/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/software-development/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/software-development/dev-5/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/software-development/dev-2/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/</loc>
   </url>
 </urlset>
