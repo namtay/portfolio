@@ -21,13 +21,12 @@
             {{ $projID := .id }}
             {{ $projectURL := .url }}
 
-            <p>projID: {{ $projID }}</p>
-            <p>initial projectURL: {{ $projectURL }}</p>
+            
             {{/* Find the matching full project */}}
             {{ range $fullProjects.Params.projects }}
               {{ if eq .id $projID }}
                 {{ $projectURL = .url }}
-                <p>Matched! projectURL is now: {{ $projectURL }}</p>
+                
               {{ end }}
             {{ end }}
             <a href= {{ $projectURL| relURL }} class="service-box-link">
