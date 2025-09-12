@@ -14,7 +14,7 @@
      {{ with .Params.project_types }}
         {{ range . }}
         <div class="col-md-4">
-          <a href="{{.url }}" class="service-box-link">
+          <a href="{{.url | relURL}}" class="service-box-link">
           <div class=" card service-box">
             <div class="icon-circle"><i class="bi {{ .icon }}"></i></div>
             <h5 class="service-heading text-colour-override">{{ .title }}</h5>
