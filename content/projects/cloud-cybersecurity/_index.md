@@ -12,6 +12,7 @@ layout = "project_detail"
 Title = "Cloud Cybersecurity Projects"
 title = "Cloud Security Incident Response & Recovery"
 text = "Identified vulnerabilities from a major data breach, contained unauthorized access, recovered compromised systems, and ensured compliance by remediating outstanding security issues."
+url = "projects/cloud-cybersecurity/project_details/cloud-1"
 
 
 [[projects]]
