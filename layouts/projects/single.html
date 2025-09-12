@@ -30,7 +30,7 @@
                 <p>Matched! projectURL is now: {{ $projectURL }}</p>
               {{ end }}
             {{ end }}
-            <a href= {{ $projectURL }} class="service-box-link">
+            <a href= {{ $projectURL|absURL }} class="service-box-link">
             <!-- <a href="{{ $projectURL }}" class="service-box-link"> -->
               <div class="service-box fixed-card">
                 <img src="{{ .image }}" class="card-img-top fixed-img" alt="{{ .title }}">
