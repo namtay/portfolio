@@ -6,7 +6,7 @@
 
 <section class="service-section">
   <div class="container">
-    <h2 class="service-title">{{ .Title }}</h2>
+    <h2 class="service-title text-colour-override">{{ .Title }}</h2>
     <div class="divider"></div>
     <div class="row g-4">
 
@@ -30,11 +30,11 @@
                 <p>Matched! projectURL is now: {{ $projectURL }}</p>
               {{ end }}
             {{ end }}
-            <a href= {{ $projectURL|absURL }} class="service-box-link">
+            <a href= {{ $projectURL| relURL }} class="service-box-link">
             <!-- <a href="{{ $projectURL }}" class="service-box-link"> -->
               <div class="service-box fixed-card">
-                <img src="{{ .image }}" class="card-img-top fixed-img" alt="{{ .title }}">
-                <h5 class="service-heading">{{ .title }}</h5>
+                <img src="{{ .image | relURL}}" class="card-img-top fixed-img" alt="{{ .title }}">
+                <h5 class="service-heading text-colour-override">{{ .title }}</h5>
                 <p class="service-inner-text">{{ .text | truncate 120 }}</p>
                 <!-- <a href="{{ $projectURL }}" class="btn btn-success mt-1">View Project</a> -->
               </div>
