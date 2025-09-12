@@ -1,5 +1,5 @@
 +++
-date = '2025-08-09T13:39:07-03:00'
+
 layout = "test_project_detail"
 draft ="false"
 description ="Created and managed Identity and Access Management (IAM) custom roles."
