@@ -14,13 +14,13 @@ url="projects/cloud-cybersecurity"
 icon = "bi-shield-lock"
 title = "Cybersecurity"
 text = "Developed and deployed security measures to safeguard networks, detect vulnerabilities, and prevent attacks."
-url="/projects/cybersecurity"
+url="projects/cybersecurity"
 
 
 [[project_types]]
 icon = "bi-code-slash"
 title = "Software Development"
-url = "/projects/software-development"
+url = "projects/software-development"
 text="Built custom web and software applications that solve real-world problems and improve workflow"
 
 
