@@ -10,35 +10,35 @@ id ="cloud-1"
 image = "images/cloud_cyber/cloud_cyber2.png"
 title = "VPC Infrastructure Deployment with Terraform"
 text = "Defined and provisioned secure network infrastructure for a banking application using Terraform on Google Cloud Platform (GCP) Virtual Private Cloud (VPC), enabling automated, consistent, and scalable deployments aligned with security best practices"
-url = "projects/cloud-cybersecurity/project_details/cloud-1"
+url = "projects/cloud-cybersecurity/cloud-1"
 
 [[projects]]
 id ="cloud-2"
 image = "images/cloud_cyber/cloud_cyber2.png"
 title = "VPC Infrastructure Deployment with Terraform"
 text = "Defined and provisioned secure network infrastructure for a banking application using Terraform on Google Cloud Platform (GCP) Virtual Private Cloud (VPC), enabling automated, consistent, and scalable deployments aligned with security best practices"
-url = "projects/cloud-cybersecurity/project_details/cloud-2"
+url = "projects/cloud-cybersecurity/cloud-2"
 
 [[projects]]
 id ="cloud-3"
 image = "images/cloud_cyber/cloud_cyber3.png"
 title = "Changing firewall rules with Terraform and Cloudshell"
 text = "Identified vulnerabilities and strengthened network defenses."
-url = "projects/cloud-cybersecurity/project_details/cloud-3"
+url = "projects/cloud-cybersecurity/cloud-3"
 
 [[projects]]
 id ="cloud-4"
 image = "images/cloud_cyber/cloud_cyber4.png"
 title = "Cloud Storage Bucket Hardening"
 text = "Identified and remediated a high-risk PUBLIC_BUCKET_ACL vulnerability using Google Cloud Security Command Center by removing public ACL access, eliminating unauthorized exposure."
-url = "projects/cloud-cybersecurity/project_details/cloud-4"
+url = "projects/cloud-cybersecurity/cloud-4"
 
 [[projects]]
 id ="cloud-5"
 image = "images/cloud_cyber/cloud_cyber5.png"
 title = "Threat detection"
 text = "Developed real-time monitoring dashboards for cybersecurity metrics."
-url = "projects/cloud-cybersecurity/project_details/cloud-5"
+url = "projects/cloud-cybersecurity/cloud-5"
 
 
 +++
