@@ -8,7 +8,7 @@ layout = "list"
 icon = "bi-cloud"
 title = "Cloud Cybersecurity"
 text = "Implemented secure cloud solutions, including access controls and threat monitoring, to protect client data"
-url="projects/cloud-cybersecurity"
+url="projects/cloud-cybersecurity/project_details"
 
 [[project_types]]
 icon = "bi-shield-lock"
