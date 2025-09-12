@@ -47,6 +47,10 @@
     cursor: pointer;
 }
 
+.text-colour-override{
+   color: #000 !important;
+}
+
 .icon-circle {
   width: 60px;
   height: 60px;
