@@ -5,6 +5,8 @@ layout = "single"
 draft ="false" 
 description ="Created and managed Identity and Access Management (IAM) custom roles."
 
+
+
 [[projects]]
 id ="cloud-1"
 image = "images/cloud_cyber/cloud_cyber2.png"
@@ -41,6 +43,6 @@ text = "Developed real-time monitoring dashboards for cybersecurity metrics."
 url = "projects/cloud-cybersecurity/cloud-5"
 
 
+
+
 +++
-
-
