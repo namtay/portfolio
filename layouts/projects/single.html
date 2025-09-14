@@ -6,36 +6,21 @@
 
 <section class="service-section">
   <div class="container">
-    <h2 class="service-title text-colour-override">{{ .Title }}</h2>
+    <h2 class="service-title text-colour-override">{{.Title}}</h2>
     <div class="divider"></div>
     <div class="row g-4">
-
-      {{/* Load the full projects file */}}
-      {{ $fullProjects := site.GetPage "projects/cloud-cybersecurity/project_details" }}
-
-      {{/* Loop through abridged projects */}}
+    
       {{ with .Params.projects }}
         {{ range . }}
-          <div class="col-md-4">
-
-            {{ $projID := .id }}
-            {{ $projectURL := .url }}
-
+          <div class="col-md-4">         
+         
+          <a href= "{{ .url | relURL }}" class="service-box-link">
             
-            {{/* Find the matching full project */}}
-            {{ range $fullProjects.Params.projects }}
-              {{ if eq .id $projID }}
-                {{ $projectURL = .url }}
-                
-              {{ end }}
-            {{ end }}
-            <a href= {{ $projectURL| relURL }} class="service-box-link">
-            <!-- <a href="{{ $projectURL }}" class="service-box-link"> -->
               <div class="service-box fixed-card">
                 <img src="{{ .image | relURL}}" class="card-img-top fixed-img" alt="{{ .title }}">
                 <h5 class="service-heading text-colour-override">{{ .title }}</h5>
                 <p class="service-inner-text">{{ .text | truncate 120 }}</p>
-                <!-- <a href="{{ $projectURL }}" class="btn btn-success mt-1">View Project</a> -->
+                
               </div>
             </a>
           </div>

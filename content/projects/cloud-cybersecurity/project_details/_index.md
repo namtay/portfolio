@@ -1,7 +1,7 @@
 +++
 date = '2025-08-09T13:39:07-03:00'
 Title = "Cloud Cybersecurity Projects "
-layout = "project_detail"
+layout = "single"
 draft ="false" 
 description ="Created and managed Identity and Access Management (IAM) custom roles."
 
