@@ -5,7 +5,7 @@ draft ="false"
 description ="Created and managed Identity and Access Management (IAM) custom roles."
 id="cyber-1"
 image = "images/cloud_cyber/cloud_cyber1.png"
-title = "Cloud Security Incident Response & Recovery"
+title = "Logging with Splunk Enterprisey"
 text = "Identified vulnerabilities from a major data breach, contained unauthorized access, recovered compromised systems, and ensured compliance by remediating outstanding security issues."
 
 url= "projects/cybersecurity/cyber-1"
