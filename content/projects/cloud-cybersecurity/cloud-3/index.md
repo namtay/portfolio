@@ -1,12 +1,13 @@
 +++
+
 layout = "test_project_detail"
 draft ="false"
 description ="Created and managed Identity and Access Management (IAM) custom roles."
-id="cloud-1"
-image = "images/cloud_cyber/cloud_cyber1.png"
-title = "Cloud Security Incident Response & Recovery"
-text = "Identified vulnerabilities from a major data breach, contained unauthorized access, recovered compromised systems, and ensured compliance by remediating outstanding security issues."
-url= "projects/cloud-cybersecurity/project_details/cloud-1"
+id ="cloud-3"
+image = "images/cloud_cyber/cloud_cyber3.png"
+title = "Changing firewall rules with Terraform and Cloudshell"
+text = "Identified vulnerabilities and strengthened network defenses."
+url = "projects/cloud-cybersecurity/cloud-3"
 tools = ["Wireshark", "Splunk"]
 frameworks = ["MITRE ATT&CK"]
 standards = ["ISO 27001"]

@@ -24,6 +24,13 @@
     </item>
     <item>
       <title>Cloud Security Incident Response &amp; Recovery</title>
+      <link>http://localhost:1313/projects/cybersecurity/cyber-2/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cybersecurity/cyber-2/</guid>
+      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+    </item>
+    <item>
+      <title>Cloud Security Incident Response &amp; Recovery</title>
       <link>http://localhost:1313/projects/cybersecurity/cyber-3/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/cybersecurity/cyber-3/</guid>
@@ -51,13 +58,6 @@
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>
-      <title>Logging with Splunk Enterprisey</title>
-      <link>http://localhost:1313/projects/cybersecurity/cyber-1/</link>
-      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
-      <guid>http://localhost:1313/projects/cybersecurity/cyber-1/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
       <title>Movie app</title>
       <link>http://localhost:1313/projects/software-development/dev-1/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
@@ -66,9 +66,9 @@
     </item>
     <item>
       <title>Threat detection</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-5/</link>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-5/</guid>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>
@@ -80,9 +80,9 @@
     </item>
     <item>
       <title>VPC Infrastructure Deployment with Terraform</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-2/</link>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-2/</guid>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>
@@ -94,24 +94,24 @@
     </item>
     <item>
       <title>Changing firewall rules with Terraform and Cloudshell</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-3/</link>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-3/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
-      <title>Cloud Security Incident Response &amp; Recovery</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-1/</guid>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>
       <title>Cloud Storage Bucket Hardening</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-4/</link>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/project_details/cloud-4/</guid>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-4/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+    </item>
+    <item>
+      <title>Secure Cloud Framework for Digital Land Registry System</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</guid>
+      <description>Designed and implemented a GCP-based cybersecurity framework to protect the integrity, availability, and confidentiality of digital land registry platforms supporting UN SDG #1 (No Poverty).</description>
     </item>
   </channel>
 </rss>

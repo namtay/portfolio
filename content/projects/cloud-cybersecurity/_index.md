@@ -10,8 +10,8 @@ description ="Created and managed Identity and Access Management (IAM) custom ro
 [[projects]]
 id ="cloud-1"
 image = "images/cloud_cyber/cloud_cyber2.png"
-title = "VPC Infrastructure Deployment with Terraform"
-text = "Defined and provisioned secure network infrastructure for a banking application using Terraform on Google Cloud Platform (GCP) Virtual Private Cloud (VPC), enabling automated, consistent, and scalable deployments aligned with security best practices"
+title = "Secure Cloud Framework for Digital Land Registry System"
+text = "Designed and implemented a GCP-based cybersecurity framework to protect the integrity, availability, and confidentiality of digital land registry platforms supporting UN SDG #1 (No Poverty)."
 url = "projects/cloud-cybersecurity/cloud-1"
 
 [[projects]]
