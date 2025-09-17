@@ -30,13 +30,15 @@
             <div class="project-details flex-1">
               <h3>{{ .title }}</h3>
               <p>{{ .text }}</p>
-              <p>hello</p>
+              
 
               {{ if .steps }}
                 <ul class="project-steps list-unstyled">
                   {{ range .steps }}
                     <li>
-                      <strong>{{ .title }}</strong>: {{ .description }}
+                      <p><strong>{{ .title }}</strong>:  </p>
+                    </br>
+                      <p>{{ .description }}</p>
                     </li>
                   {{ end }}
                 </ul>

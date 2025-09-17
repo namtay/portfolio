@@ -6,10 +6,11 @@ draft ="false"
 description ="Created and managed Identity and Access Management (IAM) custom roles."
 
 [[projects]]
-id="cyber-1"
+id ="cyber-1"
 image = "images/cloud_cyber/cloud_cyber1.png"
-title = "OT Endpoint Detection and Monitoring system"
+title = "OT Endpoint Detection and Monitoring System"
 text = "Designed and implemented an OT-focused endpoint detection and monitoring system using Machine Learning to detect and classify malicious activity targeting ICS/SCADA networks."
+url= "projects/cybersecurity/cyber-1"
 
 [[projects]]
 id="cyber-2"
