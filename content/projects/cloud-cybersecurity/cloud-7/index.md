@@ -9,7 +9,7 @@ url = "projects/cloud-cybersecurity/cloud-7"
 
 text = "Analyzed inbound network traffic to a demo web server, created and tested firewall rules to allow and deny traffic, and verified the results through network logs to improve security posture."
 
-tools = ["Google Cloud Firewall Rules", "VPC Networking", "Cloud Logging", "Cloud Shell", "gcloud CLI"]
+tools = ["Google Cloud Firewall Rules", "VPC Networking", "Cloud Logging"]
 frameworks = ["Zero Trust Architecture", "Network Security Monitoring"]
 standards = ["NIST CSF (PR.AC – Access Control, DE.CM – Continuous Monitoring)",
              "ISO 27001 (Annex A.13 – Communications Security)",

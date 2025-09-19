@@ -56,4 +56,14 @@ image = "images/cloud_cyber/cloud_cyber3.png"
 title = "Firewall Rule Analysis and Configuration"
 text = "Analyzed inbound network traffic to a demo web server, created and tested firewall rules to allow and deny traffic, and verified the results through network logs to improve security posture."
 url = "projects/cloud-cybersecurity/cloud-7"
+
+[[projects]]
+id ="cloud-8"
+image = "images/cloud_cyber/cloud_cyber4.png"
+title = "Application Vulnerability Scanning with Web Security Scanner"
+text = "Identified and mitigated web application vulnerabilities, focusing on OWASP® Top 10 Cross-Site Scripting (XSS) risks, to secure a corporate banking application before production deployment."
+url = "projects/cloud-cybersecurity/cloud-8"
+
+
+
 +++
