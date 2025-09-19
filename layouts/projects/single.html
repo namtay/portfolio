@@ -17,7 +17,7 @@
           <a href= "{{ .url | relURL }}" class="service-box-link">
             
               <div class="service-box fixed-card">
-                <img src="{{ .image | relURL}}" class="card-img-top fixed-img" alt="{{ .title }}">
+                <img src="{{ .image | relURL}}" loading="lazy" class="card-img-top fixed-img" alt="{{ .title }}">
                 <h5 class="service-heading text-colour-override">{{ .title }}</h5>
                 <p class="service-inner-text">{{ .text | truncate 120 }}</p>
                 

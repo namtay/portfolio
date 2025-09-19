@@ -28,7 +28,7 @@
 
                         {{ range $i, $img := $images }}
                           <div class="carousel-item {{ if and (eq $index 0) (eq $i 0) }}active{{ end }}">
-                            <img src="{{ $img | relURL }}" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
+                            <img src="{{ $img | relURL }}" loading="lazy" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
                             <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                               <h5>{{ $step.title }}</h5>
                               <p class="small">{{ $step.description }}</p>

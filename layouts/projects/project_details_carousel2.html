@@ -19,7 +19,7 @@
         {{ range $index, $step := .Params.steps }}
             {{ if $step.image }}
             <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-                <img src="{{ $step.image | relURL }}" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
+                <img src="{{ $step.image | relURL }}" loading="lazy" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
                 <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                 <h5>{{ $step.title }}</h5>
                 <p class="small">{{ $step.description }}</p>
