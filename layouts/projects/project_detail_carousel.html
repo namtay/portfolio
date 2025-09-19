@@ -1,0 +1,120 @@
+{{ define "head" }}
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+{{ end }}
+
+{{ define "main" }}
+<section class="project-highlight py-4">
+  <div class="container">
+
+    <div class="project-details mb-4">
+              <h3 class=" d-flex justify-content-center">{{ .Params.title }}</h3>
+              <p class = "text-muted-override">{{ .Params.text }}</p>
+
+    </div>
+    <!-- Carousel -->
+    {{ if .Params.steps }}
+      <div id="carousel-{{ .Title | urlize }}" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {{ range $index, $step := .Params.steps }}
+            {{ if $step.image |relURL }}
+              <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                <img src="{{ $step.image | relURL }}" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                  <h5>{{ $step.title }}</h5>
+                  <p class="small">{{ $step.description }}</p>
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-{{ .Title | urlize }}" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-{{ .Title | urlize }}" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    {{ end }}
+
+
+
+ 
+
+    <!-- Steps List -->
+{{ if .Params.steps }}
+  <div class="row row-cols-1  g-4 mb-4">
+   
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+         
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-title text-success">
+                <i class="bi bi-list-check me-1"></i> Steps
+            </h6>
+             {{ range .Params.steps }}
+                <p class="card-title">{{ .title }}:
+                {{ if .text }}
+                <span class="card-text text-muted small mt-auto">{{ .text }}</span>
+                {{ end }}
+                </p>
+             {{ end }}
+          </div>
+        </div>
+      </div>
+   
+  </div>
+{{ end }}
+
+<!-- Metadata Section -->
+<div class="row g-3">
+  {{ if .Params.tools }}
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body">
+          <h6 class="card-title text-primary">
+            <i class="bi bi-tools me-1"></i> Tools
+          </h6>
+          <p class="mb-0">{{ delimit .Params.tools ", " }}</p>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ if .Params.frameworks }}
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body">
+          <h6 class="card-title text-success">
+            <i class="bi bi-diagram-3 me-1"></i> Frameworks
+          </h6>
+          <p class="mb-0">{{ delimit .Params.frameworks ", " }}</p>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ if .Params.standards }}
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body">
+          <h6 class="card-title text-warning">
+            <i class="bi bi-shield-check me-1"></i> Standards
+          </h6>
+          <p class="mb-0">{{ delimit .Params.standards ", " }}</p>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>
+
+
+  </div>
+</section>
+{{ end }}
+
+
+

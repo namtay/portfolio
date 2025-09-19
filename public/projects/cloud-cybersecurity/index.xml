@@ -9,17 +9,17 @@
     <lastBuildDate>Sat, 09 Aug 2025 13:39:07 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/cloud-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Threat detection</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</link>
-      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
       <title>VPC Infrastructure Deployment with Terraform</title>
       <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</guid>
+      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+    </item>
+    <item>
+      <title>VPC Network</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>

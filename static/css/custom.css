@@ -51,6 +51,27 @@
    color: #000 !important;
 }
 
+/* Default (light mode) */
+.text-colour-override2 {
+    color: #000000;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    .text-colour-override2 {
+        color: #ffffff; /* white in dark mode */
+    }
+    .text-muted-override {
+        color: #ffffff; /* white in dark mode */
+    }
+}
+
+/* Default (light mode) */
+.text-muted-override {
+    color: #6c757d; /* muted gray */
+}
+
+
 .icon-circle {
   width: 60px;
   height: 60px;

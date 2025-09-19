@@ -38,8 +38,8 @@ url = "projects/cloud-cybersecurity/cloud-4"
 [[projects]]
 id ="cloud-5"
 image = "images/cloud_cyber/cloud_cyber5.png"
-title = "Threat detection"
-text = "Developed real-time monitoring dashboards for cybersecurity metrics."
+title = "VPC Network"
+text = "Set up a test VPC and subnets in Google Cloud to replicate a new hybrid cloud network for security assessment."
 url = "projects/cloud-cybersecurity/cloud-5"
 
 

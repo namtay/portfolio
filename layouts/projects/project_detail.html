@@ -37,8 +37,10 @@
                   {{ range .steps }}
                     <li>
                       <p><strong>{{ .title }}</strong>:  </p>
-                    </br>
+                    
                       <p>{{ .description }}</p>
+                    </br>
+                      {{.text}}
                     </li>
                   {{ end }}
                 </ul>
