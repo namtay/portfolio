@@ -50,5 +50,10 @@ text = "Configured IAM roles and permissions to provide controlled audit access 
 url = "projects/cloud-cybersecurity/cloud-6"
 
 
-
+[[projects]]
+id ="cloud-7"
+image = "images/cloud_cyber/cloud_cyber3.png"
+title = "Firewall Rule Analysis and Configuration"
+text = "Analyzed inbound network traffic to a demo web server, created and tested firewall rules to allow and deny traffic, and verified the results through network logs to improve security posture."
+url = "projects/cloud-cybersecurity/cloud-7"
 +++
