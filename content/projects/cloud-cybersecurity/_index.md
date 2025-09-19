@@ -31,8 +31,8 @@ url = "projects/cloud-cybersecurity/cloud-3"
 [[projects]]
 id ="cloud-4"
 image = "images/cloud_cyber/cloud_cyber4.png"
-title = "Cloud Storage Bucket Hardening"
-text = "Identified and remediated a high-risk PUBLIC_BUCKET_ACL vulnerability using Google Cloud Security Command Center by removing public ACL access, eliminating unauthorized exposure."
+title = "Cloud Storage Security Remediation"
+text = "Remediated misconfigured Cloud Storage buckets and verified security compliance using Google Cloud Security tools"
 url = "projects/cloud-cybersecurity/cloud-4"
 
 [[projects]]

@@ -11,21 +11,33 @@
               <p class = "text-muted-override">{{ .Params.text }}</p>
 
     </div>
-    <!-- Carousel -->
-    {{ if .Params.steps }}
-      <div id="carousel-{{ .Title | urlize }}" class="carousel slide mb-4" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          {{ range $index, $step := .Params.steps }}
-            {{ if $step.image |relURL }}
-              <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-                <img src="{{ $step.image | relURL }}" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
-                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-                  <h5>{{ $step.title }}</h5>
-                  <p class="small">{{ $step.description }}</p>
-                </div>
-              </div>
-            {{ end }}
-          {{ end }}
+        <!-- Carousel -->
+        {{ if .Params.steps }}
+          <div id="carousel-{{ .Title | urlize }}" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                    {{ range $index, $step := .Params.steps }}
+                      {{ if $step.image }}
+                        {{ $images := (slice) }}
+
+                        {{ $type := printf "%T" $step.image }}
+                        {{ if eq $type "[]interface {}" }}
+                          {{ $images = $step.image }}
+                        {{ else }}
+                          {{ $images = slice $step.image }}
+                        {{ end }}
+
+                        {{ range $i, $img := $images }}
+                          <div class="carousel-item {{ if and (eq $index 0) (eq $i 0) }}active{{ end }}">
+                            <img src="{{ $img | relURL }}" class="d-block w-100 rounded shadow" alt="{{ $step.title }}">
+                            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                              <h5>{{ $step.title }}</h5>
+                              <p class="small">{{ $step.description }}</p>
+                            </div>
+                          </div>
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+
         </div>
 
         <!-- Controls -->
@@ -46,7 +58,7 @@
 
     <!-- Steps List -->
 {{ if .Params.steps }}
-  <div class="row row-cols-1  g-4 mb-4">
+  <div class="row row-cols-1  g-4 mb-4 mt-3">
    
       <div class="col">
         <div class="card h-100 shadow-sm">
