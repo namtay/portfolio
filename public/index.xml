@@ -9,13 +9,6 @@
     <lastBuildDate>Sat, 09 Aug 2025 13:39:07 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</link>
-      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
       <title>Changing firewall rules with Terraform and Cloudshell</title>
       <link>http://localhost:1313/projects/software-development/dev-3/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
@@ -70,6 +63,13 @@
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/cybersecurity/cyber-1/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+    </item>
+    <item>
+      <title>Role-Based Access for Third-Party Audit</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</guid>
+      <description>Configured IAM roles and permissions to provide controlled audit access to a sensitive database in Google Cloud</description>
     </item>
     <item>
       <title>Threat detection</title>

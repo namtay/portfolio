@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 09 Aug 2025 13:39:07 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/cloud-cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Role-Based Access for Third-Party Audit</title>
       <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+      <description>Configured IAM roles and permissions to provide controlled audit access to a sensitive database in Google Cloud</description>
     </item>
     <item>
       <title>VPC Infrastructure Deployment with Terraform</title>
