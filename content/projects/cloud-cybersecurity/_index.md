@@ -64,6 +64,14 @@ title = "Application Vulnerability Scanning with Web Security Scanner"
 text = "Identified and mitigated web application vulnerabilities, focusing on OWASP® Top 10 Cross-Site Scripting (XSS) risks, to secure a corporate banking application before production deployment."
 url = "projects/cloud-cybersecurity/cloud-8"
 
+[[projects]]
+id ="cloud-9"
+image = "images/cloud_cyber/cloud_cyber2.png"
+title = "Data Protection with Cloud Key Management"
+text = "Created and managed symmetric and asymmetric encryption keys using Google Cloud Key Management Service (KMS) to protect sensitive customer data during secure cloud migration."
+url = "projects/cloud-cybersecurity/cloud-9"
+
+
 
 
 +++
