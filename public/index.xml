@@ -114,18 +114,18 @@
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>
-      <title>Changing firewall rules with Terraform and Cloudshell</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
       <title>Cloud Storage Security Remediation</title>
       <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-4/</guid>
       <description> Addressing a misconfigured Cloud Storage bucket containing sensitive documents.  Used Google Cloud Security Command Center to identify and verify the security threats. I then remediated high- and medium-risk issues and ran a compliance report to confirm that the vulnerabilities were resolved</description>
+    </item>
+    <item>
+      <title>Deploying VPC and Firewall with Terraform</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</guid>
+      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
     </item>
     <item>
       <title>Secure Cloud Framework for Digital Land Registry System</title>

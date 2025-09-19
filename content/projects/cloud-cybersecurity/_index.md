@@ -16,7 +16,7 @@ url = "projects/cloud-cybersecurity/cloud-1"
 
 [[projects]]
 id ="cloud-2"
-image = "images/cloud_cyber/cloud_cyber2.png"
+image = "images/cloud_cyber/cloud_cyber1.png"
 title = "VPC Infrastructure Deployment with Terraform"
 text = "Defined and provisioned secure network infrastructure for a banking application using Terraform on Google Cloud Platform (GCP) Virtual Private Cloud (VPC), enabling automated, consistent, and scalable deployments aligned with security best practices"
 url = "projects/cloud-cybersecurity/cloud-2"
@@ -24,8 +24,8 @@ url = "projects/cloud-cybersecurity/cloud-2"
 [[projects]]
 id ="cloud-3"
 image = "images/cloud_cyber/cloud_cyber3.png"
-title = "Changing firewall rules with Terraform and Cloudshell"
-text = "Identified vulnerabilities and strengthened network defenses."
+title = "Deploying VPC and Firewall with Terraform"
+text = "Defined and provisioned a secure Virtual Private Cloud (VPC) network and firewall rules using Terraform to support the deployment of Cymbal Bank's new banking application."
 url = "projects/cloud-cybersecurity/cloud-3"
 
 [[projects]]

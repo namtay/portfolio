@@ -67,11 +67,11 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</loc>
-  </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-4/</loc>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</loc>
   </url><url>
