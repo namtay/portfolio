@@ -17,7 +17,7 @@ standards = ["ISO 27001", "NIST CSF"]
 title = "Step 1"
 description = "Created a symmetric key to encrypt and decrypt data securely."
 text = "Created a symmetric key to encrypt and decrypt data securely."
-image = ["images/cloud_cyber/cloud_9/step1_part1.png","images/cloud_cyber/cloud_9/step1_part2.png", "images/cloud_cyber/cloud_9/step1_part3.png"]
+image = ["images/cloud_cyber/cloud_9/step1_part1.png","images/cloud_cyber/cloud_9/step1_part2.png","images/cloud_cyber/cloud_9/step1_part3.png"]
 
 
 [[steps]]

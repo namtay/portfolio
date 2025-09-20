@@ -16,6 +16,20 @@
       <description></description>
     </item>
     <item>
+      <title>Backup and Disaster Recovery for Incident Response</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-13/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-13/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capstone: Cloud Security Incident Response</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Changing firewall rules with Terraform and Cloudshell</title>
       <link>http://localhost:1313/projects/software-development/dev-3/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
@@ -72,6 +86,20 @@
       <description></description>
     </item>
     <item>
+      <title>Incident Response Simulation and Log Analysis with BigQuery</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-12/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-12/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Investigating and Remediating IAM Threat Findings</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-10/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-10/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Movie app</title>
       <link>http://localhost:1313/projects/software-development/dev-1/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
@@ -84,6 +112,13 @@
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/cybersecurity/cyber-1/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+    </item>
+    <item>
+      <title>Remediating a False Positive Security Alert</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-11/</link>
+      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-11/</guid>
+      <description></description>
     </item>
     <item>
       <title>Role-Based Access for Third-Party Audit</title>
@@ -101,13 +136,6 @@
     </item>
     <item>
       <title>VPC Infrastructure Deployment with Terraform</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</link>
-      <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</guid>
-      <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
-      <title>VPC Infrastructure Deployment with Terraform</title>
       <link>http://localhost:1313/projects/software-development/dev-2/</link>
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/software-development/dev-2/</guid>
@@ -119,6 +147,13 @@
       <pubDate>Sat, 09 Aug 2025 13:39:07 -0300</pubDate>
       <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
+    </item>
+    <item>
+      <title>Capstone: Secure Cloud Framework for Digital Land Registry System</title>
+      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</guid>
+      <description>Designed and implemented a GCP-based cybersecurity framework to protect the integrity, availability, and confidentiality of digital land registry platforms supporting UN SDG #1 (No Poverty).</description>
     </item>
     <item>
       <title>Cloud Storage Security Remediation</title>
@@ -133,13 +168,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</guid>
       <description>Created and managed Identity and Access Management (IAM) custom roles.</description>
-    </item>
-    <item>
-      <title>Secure Cloud Framework for Digital Land Registry System</title>
-      <link>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</guid>
-      <description>Designed and implemented a GCP-based cybersecurity framework to protect the integrity, availability, and confidentiality of digital land registry platforms supporting UN SDG #1 (No Poverty).</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 +++
-layout = "test_project_detail"
+layout = "project_detail_carousel"
 draft ="false"
 description ="Designed and implemented a GCP-based cybersecurity framework to protect the integrity, availability, and confidentiality of digital land registry platforms supporting UN SDG #1 (No Poverty)."
 id="cloud-1"
 image = "images/cloud_cyber/cloud_cyber1.png"
-title = "Secure Cloud Framework for Digital Land Registry System"
+title = "Capstone: Secure Cloud Framework for Digital Land Registry System"
 text = "Developed secure authentication, encryption, and monitoring controls to ensure vulnerable populations (women and smallholder farmers) can access and trust legally recognized land documentation, preventing unauthorized data manipulation."
 url= "projects/cloud-cybersecurity/cloud-1"
 tools = ["Google Cloud IAM","Cloud Monitoring", "Cloud Logging"]
@@ -15,6 +15,7 @@ standards = ["ISO 27001",  "NIST CSF"]
 title = "Step 1"
 description = "Problem Identification"
 text = "Identified real-world problem by analyzing global land registry challenges using data from UNHabitat and World Bank Open Data, confirming the risk of tenure insecurity in property ownership systems."
+image = "images/cloud_cyber/cloud_cyber1.png"
 
 [[steps]]
 title = "Step 2"

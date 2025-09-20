@@ -4,21 +4,19 @@ Title = "Cloud Cybersecurity Projects "
 layout = "single"
 draft ="false" 
 
-
-
-
 [[projects]]
 id ="cloud-1"
 image = "images/cloud_cyber/cloud_cyber2.png"
-title = "Secure Cloud Framework for Digital Land Registry System"
+title = "Capstone: Secure Cloud Framework for Digital Land Registry System"
 text = "Designed and implemented a GCP-based cybersecurity framework to protect the integrity, availability, and confidentiality of digital land registry platforms supporting UN SDG #1 (No Poverty)."
 url = "projects/cloud-cybersecurity/cloud-1"
 
 [[projects]]
 id ="cloud-2"
 image = "images/cloud_cyber/cloud_cyber1.png"
-title = "VPC Infrastructure Deployment with Terraform"
-text = "Defined and provisioned secure network infrastructure for a banking application using Terraform on Google Cloud Platform (GCP) Virtual Private Cloud (VPC), enabling automated, consistent, and scalable deployments aligned with security best practices"
+title = "Capstone: Cloud Security Incident Response"
+text = "Completed a capstone project simulating a major data breach at Cymbal Retail. The project covered the full incident response process — finding vulnerabilities, containing the breach, recovering systems, fixing compliance issues, and confirming that all security gaps were closed."
+
 url = "projects/cloud-cybersecurity/cloud-2"
 
 [[projects]]
@@ -71,7 +69,35 @@ title = "Data Protection with Cloud Key Management"
 text = "Created and managed symmetric and asymmetric encryption keys using Google Cloud Key Management Service (KMS) to protect sensitive customer data during secure cloud migration."
 url = "projects/cloud-cybersecurity/cloud-9"
 
+[[projects]]
+id ="cloud-10"
+image = "images/cloud_cyber/cloud_cyber2.png"
+title = "Investigating and Remediating IAM Threat Findings"
+text = "Recreated malicious IAM activity, analyzed Security Command Center findings, and remediated improper IAM configurations to distinguish benign activity from true security incidents."
+url = "projects/cloud-cybersecurity/cloud-10"
 
+[[projects]]
+id ="cloud-11"
+image = "images/cloud_cyber/cloud_cyber3.png"
+title = "Remediating a False Positive Security Alert"
+text = "Recreated a service account activity that triggered a low severity security alert, analyzed the finding using Security Command Center, and remediated the issue to understand false positives and improve security policies."
+url = "projects/cloud-cybersecurity/cloud-11"
+
+
+[[projects]]
+id ="cloud-12"
+image = "images/cloud_cyber/cloud_cyber4.png"
+title = "Incident Response Simulation and Log Analysis with BigQuery"
+text = "Recreated a service account activity that triggered a low severity security alert, analyzed the finding using Security Command Center, and remediated the issue to understand false positives and improve security policies."
+url = "projects/cloud-cybersecurity/cloud-12"
+
+
+[[projects]]
+id ="cloud-13"
+image = "images/cloud_cyber/cloud_cyber4.png"
+title = "Backup and Disaster Recovery for Incident Response"
+text = "Assisted in restoring affected virtual machines after a security incident by creating backup plans, adding Compute Engine instances to the Backup and DR console, and performing cross-project VM restoration."
+url = "projects/cloud-cybersecurity/cloud-13"
 
 
 +++
