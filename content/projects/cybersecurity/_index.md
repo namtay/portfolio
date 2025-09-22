@@ -12,32 +12,28 @@ title = "OT Endpoint Detection and Monitoring System"
 text = "Designed and implemented an OT-focused endpoint detection and monitoring system using Machine Learning to detect and classify malicious activity targeting ICS/SCADA networks."
 url= "projects/cybersecurity/cyber-1"
 
+
 [[projects]]
-id="cyber-2"
-image = "images/cloud_cyber/cloud_cyber2.png"
-title = "VPC Infrastructure Deployment with Terraform"
-text = "Defined and provisioned secure network infrastructure for a banking application using Terraform on Google Cloud Platform (GCP) Virtual Private Cloud (VPC), enabling automated, consistent, and scalable deployments aligned with security best practices"
+id ="cyber-2"
+image = "images/cloud_cyber/cloud_cyber1.png"
+title = "Security Monitoring and Log Analysis with Splunk"
+text = "Configured Splunk on Linux Ubuntu to ingest logs, analyze access patterns, and monitor system logs in real time for security events."
 url= "projects/cybersecurity/cyber-2"
 
 [[projects]]
-id="cyber-3"
-image = "images/cloud_cyber/cloud_cyber3.png"
-title = "Changing firewall rules with Terraform and Cloudshell"
-text = "Identified vulnerabilities and strengthened network defenses."
-url = "projects/cybersecurity/cyber-3"
+id ="cyber-3"
+image = "images/cloud_cyber/cloud_cyber1.png"
+title = "Elasticsearch Data Visualization and Indexing"
+text = "Implemented an end-to-end data pipeline using Elasticsearch and Kibana for indexing, querying, and visualizing structured data. Built visualizations in Google Colab using Python to analyze relationships between variables and gain actionable insights."
+url= "projects/cybersecurity/cyber-3"
 
 [[projects]]
-id="cyber-4"
-image = "images/cloud_cyber/cloud_cyber4.png"
-title = "Cloud Storage Bucket Hardening"
-text = "Identified and remediated a high-risk PUBLIC_BUCKET_ACL vulnerability using Google Cloud Security Command Center by removing public ACL access, eliminating unauthorized exposure."
+id ="cyber-4"
+image = "images/cloud_cyber/cloud_cyber1.png"
+title = "Threat Intelligence Investigation Using MISP – PupyRAT Malware Analysis"
+text = "Deployed and configured MISP on Ubuntu using Docker to centralize threat intelligence. Investigated a published CIRCL event on PupyRAT malware, analyzed its behavior, and identified indicators of compromise such as command-and-control server IPs."
 url= "projects/cybersecurity/cyber-4"
 
-[[projects]]
-id="cyber-5"
-image = "images/cloud_cyber/cloud_cyber5.png"
-title = "Threat detection"
-text = "Developed real-time monitoring dashboards for cybersecurity metrics."
-url= "projects/cybersecurity/cyber-5"
+
 +++
 

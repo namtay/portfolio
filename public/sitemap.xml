@@ -11,19 +11,16 @@
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-8/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-13/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/software-development/dev-3/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/</loc>
-    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/cybersecurity/cyber-2/</loc>
-    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/cybersecurity/cyber-3/</loc>
-    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/cybersecurity/cyber-4/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/cybersecurity/cyber-5/</loc>
@@ -41,6 +38,9 @@
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-7/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-12/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-10/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
@@ -53,7 +53,13 @@
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-11/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-6/</loc>
+    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/cybersecurity/cyber-2/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/software-development/</loc>
@@ -62,14 +68,13 @@
     <loc>http://localhost:1313/projects/software-development/dev-5/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-2/</loc>
-    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/software-development/dev-2/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-5/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -79,8 +84,10 @@
   </url><url>
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-1/</loc>
+    <loc>http://localhost:1313/projects/cybersecurity/cyber-3/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/cybersecurity/cyber-4/</loc>
   </url>
 </urlset>

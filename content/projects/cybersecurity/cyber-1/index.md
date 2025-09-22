@@ -1,6 +1,6 @@
 +++
 date = '2025-08-09T13:39:07-03:00'
-layout = "test_project_detail"
+layout = "project_detail_carousel"
 draft ="false"
 description ="Created and managed Identity and Access Management (IAM) custom roles."
 id="cyber-1"
@@ -19,23 +19,25 @@ standards = ["NIST CSF (DE.CM – Continuous Monitoring, PR.IP – Information P
 [[steps]]
 title = "Step 1"
 description="Data Preparation and Feature Engineering"
-text = "Data Preparation and Feature Engineering:Used endpoint datasets from different sources and performed preprocessing and feature engineering for machine learning model training."
+text = "Used endpoint datasets from different sources(IOT_Sentinnel dataset,TON_IoT dataset, UNSW_NB15 dataset) and performed preprocessing and feature engineering for machine learning model training."
+image=["images/cyber/cyber-1/step1_part1.png","images/cyber/cyber-1/step1_part2.png"]
 
 [[steps]]
 title = "Step 2 "
 description = "Model Development and Training"
-text = ":Developed and trained Random Forest, SVM, LSTM, and CNN models in Google Colab to detect and classify malicious activity."
+text = "Developed and trained Random Forest, SVM, LSTM, and CNN models in Google Colab to detect and classify malicious activity."
+image=["images/cyber/cyber-1/step2_part1.png","images/cyber/cyber-1/step2_part2.png","images/cyber/cyber-1/step2_part3.png","images/cyber/cyber-1/step2_part4.png"]
 
 [[steps]]
 title = "Step 3"
 description="Model Evaluation and Comparison"
 text = "Compared model performance based on precision, and recall to determine the most effective detection algorithm."
-
+image=["images/cyber/cyber-1/step3_part1.png","images/cyber/cyber-1/step3_part2.png"]
 
 [[steps]]
 title = "Step 4"
 description="Deployment Planning"
-text = "Prepared the best-performing model for deployment in the OT monitoring system to enhance ICS/SCADA network visibility.Also suggested deployment platforms like Cloud over on-site deployment."
+text = "Suggested the best-performing model for deployment as Random Forest in the OT monitoring system to enhance ICS/SCADA network visibility.Also suggested deployment platforms like Cloud or Hybrid over on-site deployment."
 
 
 key_learnings = [
@@ -44,4 +46,6 @@ key_learnings = [
     "Understood the integration of ML-based detection within ICS/SCADA monitoring systems.",
     "Enhanced knowledge of OT/ICS security frameworks and best practices for endpoint protection."
 ]
+
+
 +++
