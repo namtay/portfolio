@@ -42,5 +42,13 @@ title = "Penetration Testing with Nmap and Metasploit"
 text = "Performed a penetration testing capstone project for a new trading company to identify vulnerabilities in target systems. The project used Nmap for port scanning and Metasploit for exploit testing, demonstrating how attackers could gain access and how security teams can prevent such attacks."
 url= "projects/cybersecurity/cyber-5"
 
+[[projects]]
+id ="cyber-6"
+image = "images/cloud_cyber/cloud_cyber1.png"
+title = "Active MITM Attack Simulation Using XAMPP and Burp Suite"
+text = "Simulated an active MITM attack between a Windows server and an Ubuntu client to intercept and modify web traffic using XAMPP and Burp Suite, demonstrating risks to confidentiality and integrity of communication. The project highlighted practical techniques for detecting and preventing such attacks."
+url= "projects/cybersecurity/cyber-6"
+
+
 +++
 
