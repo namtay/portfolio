@@ -48,6 +48,26 @@
               {{ if .Params.standards }}
                 <p><strong>Standards:</strong> {{ delimit .Params.standards ", " }}</p>
               {{ end }}
+                  {{ if .Params.findings_and_recommendations }}
+                    {{ with .Params.findings_and_recommendations.findings }}
+                      <p><strong>Findings:</strong></p>
+                      <ul>
+                        {{ range . }}
+                          <li>{{ . }}</li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+
+                    {{ with .Params.findings_and_recommendations.recommendations }}
+                      <p><strong>Recommendations:</strong></p>
+                      <ul>
+                        {{ range . }}
+                          <li>{{ . }}</li>
+                        {{ end }}
+                      </ul>
+                    {{ end }}
+                  {{ end }}
+
             </div>
           </div>
       

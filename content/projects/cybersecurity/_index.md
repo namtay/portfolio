@@ -35,5 +35,12 @@ text = "Deployed and configured MISP on Ubuntu using Docker to centralize threat
 url= "projects/cybersecurity/cyber-4"
 
 
+[[projects]]
+id ="cyber-5"
+image = "images/cloud_cyber/cloud_cyber1.png"
+title = "Penetration Testing with Nmap and Metasploit"
+text = "Performed a penetration testing capstone project for a new trading company to identify vulnerabilities in target systems. The project used Nmap for port scanning and Metasploit for exploit testing, demonstrating how attackers could gain access and how security teams can prevent such attacks."
+url= "projects/cybersecurity/cyber-5"
+
 +++
 

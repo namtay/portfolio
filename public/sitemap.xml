@@ -23,9 +23,6 @@
     <loc>http://localhost:1313/projects/cloud-cybersecurity/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/cybersecurity/cyber-5/</loc>
-    <lastmod>2025-08-09T13:39:07-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/software-development/dev-4/</loc>
     <lastmod>2025-08-09T13:39:07-03:00</lastmod>
   </url><url>
@@ -85,6 +82,8 @@
     <loc>http://localhost:1313/projects/cloud-cybersecurity/cloud-3/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/cybersecurity/cyber-3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/cybersecurity/cyber-5/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>

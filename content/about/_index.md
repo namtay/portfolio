@@ -7,6 +7,5 @@ layout = "single"
 description= "I am a Cybersecurity and Software Engineer with expertise in building secure systems, automating workflows, and handling technical incident response. My experience spans cybersecurity, cloud security, and software development, where I design scalable solutions, strengthen security posture, and ensure system reliability for modern organizations."
         
 
-
 +++
 

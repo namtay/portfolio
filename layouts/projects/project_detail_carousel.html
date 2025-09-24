@@ -123,6 +123,45 @@
   {{ end }}
 </div>
 
+<!-- Recommendations and findings  -->
+{{ if .Params.findings_and_recommendations }}
+  <div class="row row-cols-1 g-4 mb-4 mt-3">
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body d-flex flex-column">
+          <h6 class="card-title text-danger">
+            <i class="bi bi-list-check me-1"></i> Findings & Recommendations
+          </h6>
+
+          {{ if .Params.findings_and_recommendations.findings }}
+            <p class="card-title">Findings:</p>
+            <ul class="card-text text-muted small mt-auto ps-3 list-unstyled">
+              {{ range .Params.findings_and_recommendations.findings }}
+                 <li>
+                    <i class="bi bi-check-circle me-2 text-success"></i>{{ . }}
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+
+          {{ if .Params.findings_and_recommendations.recommendations }}
+            <p class="card-title mt-2">Recommendations:</p>
+            <ul class="card-text text-muted small mt-auto ps-3 list-unstyled">
+              {{ range .Params.findings_and_recommendations.recommendations }}
+                <li>
+                    <i class="bi bi-check-circle me-2 text-success"></i>{{ . }}
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
+
+
 
   </div>
 </section>
