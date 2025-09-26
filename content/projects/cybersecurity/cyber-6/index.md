@@ -16,6 +16,7 @@ standards = ["ISO 27001", "NIST CSF"]
 title = "Step 1"
 description = "Set up web server and victim environment."
 text = "Disabled Windows Firewall on the Windows VM, installed XAMPP with Apache, and started the web server. Accessed the server from the Ubuntu VM via http://192.168.1.2 to confirm proper setup."
+image="images/cyber/cyber-6/step1.png"
 
 [[steps]]
 title = "Step 2"

@@ -50,5 +50,12 @@ text = "Simulated an active MITM attack between a Windows server and an Ubuntu c
 url= "projects/cybersecurity/cyber-6"
 
 
+[[projects]]
+id ="cyber-7"
+image = "images/cloud_cyber/cloud_cyber1.png"
+title = "Digital Forensics and Memory Analysis for Malware Investigation"
+text = "Conducted a detailed forensic investigation of five memory dumps (0zapftis.vmem, Coreflood.vmem, Memory.mem, Zeus.vmem, WindowsXPProfessional.vmem) from suspected malware-infected systems. Extracted critical forensic artifacts, identified malicious processes, and determined the malware name and family to understand its behavior and potential impact."
+url= "projects/cybersecurity/cyber-7"
+
 +++
 
